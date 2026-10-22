@@ -1,0 +1,22 @@
+[project]
+name = "incendios-cusco"
+version = "0.1.0"
+description = "Reto F: ¿qué incendios de Cusco pueden crecer esta semana según el clima?"
+authors = [
+    { name = "Jhanela Luz Carhuaz Fuster", email = "a20205860@pucp.edu.pe" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "folium>=0.20.0",
+    "geopandas>=1.2.0",
+    "matplotlib>=3.11.2",
+    "planetary-computer>=1.0.0",
+    "plotly>=7.1.0",
+    "pystac-client>=0.9.1",
+    "rasterio>=1.5.2",
+    "rasterstats>=0.21.0",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.1",
+    "streamlit>=1.66.1",
+    "streamlit-folium>=0.27.4",
+]
